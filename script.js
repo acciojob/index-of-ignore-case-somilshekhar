@@ -1,6 +1,6 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
-	return s1.indexOf(s2.toLowerCase());
+	return s1.toLowerCase().indexOf(s2.toLowerCase());
 }
 
 
